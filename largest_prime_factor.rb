@@ -21,3 +21,6 @@ while i * i < number do
 end
 
 puts number.to_i
+
+
+
