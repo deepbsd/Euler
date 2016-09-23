@@ -37,7 +37,7 @@ def checklst(lst1, lst2):
       c = (a**2)+(b**2)
       if pytrue(a,b,c):
         if eq1000(a,b,math.sqrt(c)):
-          return "{}  {}  {}".format(a,b,math.sqrt(c))
+          return "{}  {}  {}  {}".format(a,b,math.sqrt(c), int(a*b*math.sqrt(c)))
 
 
 if __name__ == "__main__":

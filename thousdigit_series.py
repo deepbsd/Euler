@@ -44,7 +44,7 @@ bignumlst = [int(x) for x in str(bignum)]
 # create a 13-digit slice container for using in the loop...
 smlist = [None]*13
 
-# This will be a dictionary that I can sort through that associates 
+# This will be a dictionary/hash that I can sort through that associates 
 # list position and the product of the slice that starts there. The
 # key will be the product of the 13 digits and the value will be the
 # index of the slice in question.
